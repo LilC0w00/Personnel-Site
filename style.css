@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(180deg, #D6B2AE 71%, #CEA39F 95%);
+    padding: 0;
+    margin: 0;
+    height: 150vh;
+
+    position: relative;
+}
+
+#profil {
+    background-color: #F5E4D7;
+    border: 8px #839788 solid;
+    border-radius: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36px;
+
+    width: 85%;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+}
+
+#profil > p {
+   font-family: "Golos Text", sans-serif;
+   font-weight: 400;
+   color: #5F7164;
+   font-size: 24px;
+   margin-bottom: 0;
+}
+
+h1 {
+    color: #5F7164;
+    font-family: "Hachi Maru Pop";
+    font-size: 128px;
+    margin: 0;
+}
+
+#feuille1, #feuille2 {
+    position: absolute;
+}
+
+#feuille1 {
+    top: -40px;
+    left: 0;
+}
+
+#feuille2 {
+    right: 0;
+    top: 410px;
+}
