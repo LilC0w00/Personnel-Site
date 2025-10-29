@@ -2,10 +2,12 @@ body {
     background: linear-gradient(180deg, #D6B2AE 71%, #CEA39F 95%);
     padding: 0;
     margin: 0;
-    height: 150vh;
+    height: 500vh;
 
     position: relative;
 }
+
+/* PROFIL SECTION */
 
 #profil {
     background-color: #F5E4D7;
@@ -56,3 +58,69 @@ h1 {
     right: 0;
     top: 410px;
 }
+
+/* WELCOME SECTION */
+
+#welcome {
+    margin-top: 123px;
+    text-align: center;
+}
+
+#welcome > h2 {
+    font-family: "Hachi Maru Pop";
+    font-size: 96px;
+    margin: 0;
+    color: #5F7164;
+    font-weight: 200;
+}
+
+#welcome > p {
+    font-family: "Golos Text", sans-serif;
+    color: #5F7164;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* PROJECTS SECTION */
+
+#mesprojets {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titre-presentation {
+    font-size: 64px;
+    margin-bottom: 75px;
+    color: #5F7164;
+    font-weight: bold;
+    font-family: "Golos Text", sans-serif;
+}
+
+#presentation {
+    display: flex;
+    gap: 108px;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.projet{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5F7164;
+}
+
+.projet > p {
+    width: 70%;
+    margin-top: 20px;
+    font-family: "Golos Text", sans-serif;
+}
+
+/* A PROPOS SECTION */
+
