@@ -94,10 +94,14 @@ h1 {
 
 .titre-presentation {
     font-size: 64px;
-    margin-bottom: 75px;
+    margin: 0;
     color: #5F7164;
     font-weight: bold;
     font-family: "Golos Text", sans-serif;
+}
+
+#mesprojets > .titre-presentation {
+    margin-bottom: 70px;
 }
 
 #presentation {
@@ -123,4 +127,52 @@ h1 {
 }
 
 /* A PROPOS SECTION */
+
+#a-propos {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#a-propos > p {
+    color: #5F7164;
+    font-family: "Golos Text", sans-serif;
+}
+
+#mon-parcours {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.ligne {
+    width: 200px;
+    background-color: #5F7164;
+    height: 2px;
+}
+
+.parcours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parcours > p {
+    width: 60%;
+    color: #5F7164;
+    font-family: "Golos Text", sans-serif;
+}
+
+.parcours > h4 {
+    color: #5F7164;
+    font-family: "Golos Text", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
 
