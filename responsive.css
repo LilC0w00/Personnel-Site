@@ -1,0 +1,71 @@
+@media (max-width:1320px){
+    #presentation {
+        flex-direction: column;
+    }
+
+    footer {
+        gap: 200px;
+    }
+}
+
+@media (max-width:870px){
+    h1 {
+        font-size: 100px;
+    }
+
+    #welcome > h2 {
+        font-size: 80px;
+    }
+
+    footer {
+        gap: 130px;
+    }
+
+    .parcours > p {
+        font-size: 10px;
+    }
+
+    .titre-presentation {
+        font-size: 40px;
+    }
+
+    #welcome > p,
+    #a-propos > p,
+    #contact > p {
+        font-size: 15px;
+    }
+
+    .feuille {
+        width: 270px;
+    }
+
+    #feuille2 {
+        top: 500px;
+    }
+}
+
+@media(max-width:510px){
+    .feuille {
+        width: 200px;
+    }
+
+    #feuille2 {
+        top:600px
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    #welcome >h2 {
+        font-size: 50px;
+    }
+
+    .titre-presentation {
+        font-size: 30px;
+    }
+
+    footer {
+        gap: 30px;
+    }
+}
